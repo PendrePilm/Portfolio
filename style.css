@@ -1,91 +1,75 @@
 body {
-    background-color: #1c1c1c;
-    color: #ddd;
-}
-
-.navbar {
-    background-color: #111;
-}
-
-.navbar-brand {
-    color: #aaa !important;
-}
-
-.profile-card, .cv-section, .carousel {
-    background-color: #2a2a2a;
-    border-radius: 10px;
-    padding: 15px;
-    color: #fff;
-}
-
-.card {
-    background-color: #333;
-    border: none;
-}
-
-.card-title, .nav-link {
-    color: #ddd;
-}
-
-.nav-tabs {
-    border-bottom: none !important;
-}
-
-.nav-tabs .nav-link {
-    background-color: #444;
-    border: none !important;
-    color: #aaa;
-}
-
-.nav-tabs .nav-link.active {
-    background-color: #666;
-    color: #fff;
-    border: none !important;
-}
-
-.btn-primary {
-    background-color: #444;
-    border: none;
-}
-
-.btn-primary:hover {
-    background-color: #666;
-}
-
-.list-group-item {
-    background-color: #444;
-    border: none;
-    color: #ddd;
-}
-
-.modal-content {
-    background-color: #222;
-    color: #ddd;
-}
-
-.emoji {
-    width: 30px;
-    height: 30px;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.emoji:hover {
-    transform: scale(1.2);
-    opacity: 0.8;
-}
-
-.emoji + .emoji {
-    margin-left: 15px;
-}
-
-.LinkToWork {
-    color: white;
-    background-color: #444;
-    border-radius: 10px;
-}
-
-.SuperHeros {
-    color: white;
-    background-color: #444;
-    border-radius: 10px;
-}
+     background-color: #1c1c1c; 
+     color: #ddd; 
+ }
+ .navbar {
+     background-color: #111; 
+ }
+ .navbar-brand {
+     color: #aaa !important;
+ }
+ .profile-card, .cv-section, .carousel {
+     background-color: #2a2a2a; 
+     border-radius: 10px;
+     padding: 15px;
+     color: #fff;
+ }
+ .card {
+     background-color: #333;
+     border: none;
+ }
+ .card-title, .nav-link {
+     color: #ddd;
+ }
+ .nav-tabs {
+     border-bottom: none !important; 
+ }
+ .nav-tabs .nav-link {
+     background-color: #444;
+     border: none !important;
+     color: #aaa;
+ }
+ .nav-tabs .nav-link.active {
+     background-color: #666;
+     color: #fff;
+     border: none !important;
+ }
+ .btn-primary {
+     background-color: #444;
+     border: none;
+ }
+ .btn-primary:hover {
+     background-color: #666;
+ }
+ .list-group-item {
+     background-color: #444;
+     border: none;
+     color: #ddd;
+ }
+ .modal-content {
+     background-color: #222;
+     color: #ddd;
+ }
+ .emoji {
+     width: 30px; 
+     height: 30px; 
+     transition: transform 0.3s ease, opacity 0.3s ease; 
+ }
+ 
+ .emoji:hover {
+     transform: scale(1.2); 
+     opacity: 0.8; 
+ }
+ .emoji + .emoji {
+     margin-left: 15px;
+ }
+ .LinkToWork {
+     color: white;
+     background-color: #444;
+     border-radius: 10px;
+ }
+ .SuperHeros {
+     color: white;
+     background-color: #444;
+     border-radius: 10px;
+ }
