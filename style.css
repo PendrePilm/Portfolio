@@ -1,92 +1,85 @@
-/* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-/* Styles généraux */
 body {
-    font-family: 'Poppins', sans-serif;
-    background: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
     color: #333;
 }
 
+/ Navbar /
 .navbar {
-    background: linear-gradient(135deg, #007bff, #6610f2);
-    padding: 1rem;
+    background-color: #007bff;
 }
-
 .navbar-brand {
     color: white;
+    font-weight: bold;
     font-size: 1.5rem;
-    font-weight: 600;
 }
 
+/ Profil /
 .profile-card {
     background: white;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
 }
-
 .profile-card img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
-
 .emoji {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     margin-right: 5px;
 }
 
+/ Boutons /
 .btn-primary {
-    background: linear-gradient(135deg, #007bff, #6610f2);
+    background-color: #007bff;
     border: none;
-    padding: 10px 15px;
     border-radius: 5px;
-    transition: 0.3s;
 }
-
 .btn-primary:hover {
-    background: linear-gradient(135deg, #6610f2, #007bff);
+    background-color: #0056b3;
 }
 
-.cv-section {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
+/ CV Tabs /
 .nav-tabs .nav-link {
     color: #007bff;
-    font-weight: 600;
+    font-weight: bold;
 }
-
 .nav-tabs .nav-link.active {
-    background: #007bff;
+    background-color: #007bff;
     color: white;
-    border-radius: 5px 5px 0 0;
+    border: none;
 }
 
-.carousel-item img {
+/ Contenu CV /
+.cv-section {
+    background: white;
     border-radius: 10px;
+    padding: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
-
-.carousel-caption {
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-    padding: 15px;
+.list-group-item {
+    border: none;
+    padding: 10px 15px;
 }
 
+/ Carrousel /
+.carousel-item img {
+    border-radius: 10px;
+    max-height: 400px;
+    object-fit: cover;
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/ Modales */
 .modal-content {
     border-radius: 10px;
-}
-
-@media (max-width: 768px) {
-    .profile-card {
-        text-align: center;
-    }
 }
